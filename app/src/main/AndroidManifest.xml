@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aloknath.gaana">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PlaylistActivity"
+            android:label="Playlist"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aloknath.gaana.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ArtistActivity"
+            android:label="Artist"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aloknath.gaana.MainActivity" />
+
+        </activity>
+        <activity
+            android:name=".AlbumsActivity"
+            android:label="Albums"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aloknath.gaana.MainActivity" />
+
+        </activity>
+        <activity
+            android:name=".SongsActivity"
+            android:label="Songs"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aloknath.gaana.MainActivity" />
+
+        </activity>
+        <activity android:name=".BuyActivity"
+            android:label="BuySongs"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aloknath.gaana.MainActivity" />
+
+        </activity>
+    </application>
+
+</manifest>

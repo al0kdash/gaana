@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Gaana</string>
+    <string name="album">Album Name</string>
+    <string name="artist">Artist Name</string>
+    <string name="button1">PLAYLIST</string>
+    <string name="button2">ARTIST</string>
+    <string name="button3">ALBUMS</string>
+    <string name="button4">SONGS</string>
+    <string name="playlist">PlayList Name</string>
+    <string name="song">Song Name</string>
+    <string name="buypage">This Activity will Handle the shoping cart of purchased songs. This activity will be handle in future course of action</string>
+</resources>
