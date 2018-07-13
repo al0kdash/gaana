@@ -7,6 +7,16 @@
     tools:context=".SongsActivity"
     android:orientation="vertical"
     android:weightSum="10">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/song_name"
+        style="@style/textViewHeader"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/song_text"
+        style="@style/textViewBody"/>
 
     <ScrollView
         android:layout_width="match_parent"

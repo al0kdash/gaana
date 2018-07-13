@@ -1,4 +1,5 @@
 <resources>
+    <string name="album_name">Album Activity</string>
     <string name="app_name">Gaana</string>
     <string name="album">Album Name</string>
     <string name="artist">Artist Name</string>
@@ -8,5 +9,18 @@
     <string name="button4">SONGS</string>
     <string name="playlist">PlayList Name</string>
     <string name="song">Song Name</string>
-    <string name="buypage">This Activity will Handle the shoping cart of purchased songs. This activity will be handle in future course of action</string>
+    <string name="main_header">Gaana Activity</string>
+    <string name="song_name">Songs Activity</string>
+    <string name="artist_name">Artist Activity</string>
+    <string name="main_text">This is the landing activity user will land into this activity every time the app will be opened</string>
+    <string name="artist_text">This activity will contain all the songs organised into differenet cards of their favourit artist</string>
+    <string name="playlist_name">Playlist Activity</string>
+    <string name="playlist_text">This activity will contain the user created playlist of their favourit genere organised into different cards</string>
+    <string name="song_text">This activity will contain all the current launched new songs by various artist</string>
+    <string name="album_text">This activity will contain all the current album release of the latst artist currently launching their new songs slbums</string>
+    <string name="buypage">This activity will handle the playing of song using MediaPlayer
+        API from user list, or searching new songs, add as favourite, or purchase that.
+        After added to basket, user can purchase the song through for using Google-Music-API.
+        In the toolbar menu will open the search activity,The Content for this will set later
+        on further stages.</string>
 </resources>
